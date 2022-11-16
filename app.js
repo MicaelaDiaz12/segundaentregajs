@@ -34,7 +34,7 @@ while (elegirProducto != "listo" ) {
 
 }
 for (const producto of carrito) {
-    console.log ( "\n" + producto.nombre + " " + producto.precio + "\n");
+    console.log ( producto.nombre + " " + producto.precio );
      
    }
 
